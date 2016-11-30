@@ -1,0 +1,4 @@
+<div data-role="view" data-title="Home View" data-layout="main" data-model="app.home" data-init="app.home.onInit" data-show="app.home.onShow" data-after-show="app.home.afterShow" id="homeScreen" class="screen">
+    <a data-role="button" class="km-primary km-justified" data-bind="enabled: mapReady, events:{click: navigateToPlace}">Navigate and Add Markers</a>
+    <canvas id="map_canvas" class="map-container"></canvas>
+</div>
